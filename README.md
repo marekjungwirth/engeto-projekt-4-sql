@@ -6,7 +6,7 @@ Projekt analyzuje dostupnost základních potravin v České republice vzhledem 
 
 | Soubor | Popis |
 |---|---|
-| `projekt.sql` | Skript vytvářející obě výstupní tabulky, kontroly kvality dat (DQ1–DQ5) a dotazy k pěti výzkumným otázkám |
+| `projekt.sql` | Skript vytvářející obě výstupní tabulky, kontroly kvality dat (DQ1–DQ6) a dotazy k pěti výzkumným otázkám |
 | `README.md` | Tento dokument: metodika, informace o datech a odpovědi na otázky |
 
 **Spuštění:** skript se spouští v databázi se zdrojovými tabulkami Engeto (`czechia_payroll`, `czechia_price`, `countries`, `economies` a příslušné číselníky). Tabulky se před vytvořením mažou (`DROP TABLE IF EXISTS`), takže lze skript pouštět opakovaně. Zdrojové tabulky se nijak neupravují.
